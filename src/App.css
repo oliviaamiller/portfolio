@@ -13,9 +13,9 @@
 /*
   3. Allow percentage-based heights in the application
 */
-html, body {
+/* html, body {
   height: 100%;
-}
+} */
 /*
   Typographic tweaks!
   4. Add accessible line-height
@@ -24,6 +24,7 @@ html, body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: hsl(44, 54%, 93%);
 }
 /*
   6. Improve media defaults
