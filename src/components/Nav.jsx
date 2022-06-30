@@ -20,7 +20,7 @@ export default function Nav() {
       >
         Surface Design
       </NavLink>
-      <div className='styles.aboutWrapper'>
+      <div>
         <NavLink
           activeClassName={styles.active}
           className={styles.about}
@@ -30,7 +30,7 @@ export default function Nav() {
           About
         </NavLink>
         <a
-          href='mailto: oliviaoliviaolivia@gmail.com'
+          href="mailto: oliviaoliviaolivia@gmail.com"
           className={styles.contact}
         >
           Contact
