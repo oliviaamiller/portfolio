@@ -20,7 +20,7 @@ export default function Nav() {
       >
         Surface Design
       </NavLink>
-      <div>
+      <div className={styles.aboutContainer}>
         <NavLink
           activeClassName={styles.active}
           className={styles.about}
