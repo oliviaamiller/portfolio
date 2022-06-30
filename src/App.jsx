@@ -6,7 +6,6 @@ import Contact from './views/Contact';
 import Dev from './views/Dev';
 import Home from './views/Home';
 import Nav from './components/Nav';
-import styles from './App.css';
 
 export default function App() {
   return (
