@@ -1,0 +1,54 @@
+.nav a {
+  color: pink;
+  text-decoration: none;
+}
+
+.illustration {
+  -moz-transform: rotate(-180deg); /* Firefox */
+  -webkit-transform: rotate(-180deg); /* Webkit */
+  -ms-transform: rotate(-180deg); /* IE */
+  -o-transform: rotate(-180deg); /* Opera */
+  transform: rotate(-180deg);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.design {
+  writing-mode: vertical-lr;
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.about {
+  writing-mode: vertical-lr;
+  -moz-transform: rotate(-180deg); /* Firefox */
+  -webkit-transform: rotate(-180deg); /* Webkit */
+  -ms-transform: rotate(-180deg); /* IE */
+  -o-transform: rotate(-180deg); /* Opera */
+  transform: rotate(-180deg);
+  position: absolute;
+  left: 0;
+  bottom: 45%;
+}
+
+.contact {
+  writing-mode: vertical-lr;
+  -moz-transform: rotate(-180deg); /* Firefox */
+  -webkit-transform: rotate(-180deg); /* Webkit */
+  -ms-transform: rotate(-180deg); /* IE */
+  -o-transform: rotate(-180deg); /* Opera */
+  transform: rotate(-180deg);
+  position: absolute;
+  left: 0;
+  bottom: 52%;
+}
+
+.dev{
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
