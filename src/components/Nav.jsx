@@ -29,14 +29,12 @@ export default function Nav() {
         >
           About
         </NavLink>
-        <NavLink
-          activeClassName={styles.active}
+        <a
+          href='mailto: oliviaoliviaolivia@gmail.com'
           className={styles.contact}
-          exact
-          to="/contact"
         >
           Contact
-        </NavLink>
+        </a>
       </div>
       <NavLink
         activeClassName={styles.active}
