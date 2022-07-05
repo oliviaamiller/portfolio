@@ -4,14 +4,16 @@ import styles from './Nav.css';
 export default function Nav() {
   return (
     <div className={styles.nav}>
-      <NavLink
-        activeClassName={styles.active}
-        className={styles.illustration}
-        exact
-        to="/illustration"
-      >
-        Illustration
-      </NavLink>
+      <div className={styles.illoContainer}>
+        <NavLink
+          activeClassName={styles.active}
+          className={styles.illustration}
+          exact
+          to="/illustration"
+        >
+          Illustration
+        </NavLink>
+      </div>
       <NavLink
         activeClassName={styles.active}
         className={styles.design}

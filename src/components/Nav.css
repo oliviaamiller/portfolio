@@ -6,7 +6,7 @@
   font-size: 25px;
   font-weight: 400;
   font-style: italic;
-  padding: .15rem;
+  padding: 0.15rem;
 }
 
 .nav a:hover {
@@ -15,15 +15,17 @@
 }
 
 .illustration {
-  -moz-transform: rotate(-180deg); /* Firefox */
-  -webkit-transform: rotate(-180deg); /* Webkit */
-  -ms-transform: rotate(-180deg); /* IE */
-  -o-transform: rotate(-180deg); /* Opera */
-  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg); 
+}
+
+.illoContainer {
   position: absolute;
+  color: brown;
   bottom: 0;
-  left: 35%;
+  left: 50%;
   margin-bottom: 1rem;
+  transform: translate(-50%, -50%);
 }
 
 .design {
@@ -44,11 +46,12 @@
   margin-left: 1rem;
 }
 
-.about{
-  margin-top: .25rem;
+.about {
+  margin-top: 0.25rem;
 }
 
-.about, .contact {
+.about,
+.contact {
   writing-mode: vertical-lr;
   -moz-transform: rotate(-180deg); /* Firefox */
   -webkit-transform: rotate(-180deg); /* Webkit */
@@ -57,15 +60,14 @@
   transform: rotate(-180deg);
 }
 
-.dev{
-    position: absolute;
-    top: 0;
-    left: 31%;
-    margin-top: 1rem;
-    
+.dev {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 2rem;
 }
 
 .active {
-  background-color: hotpink;
+  background-color: hsl(338, 100%, 76%);
 }
-
