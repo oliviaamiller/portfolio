@@ -15,13 +15,13 @@
 }
 
 .illustration {
-  -webkit-transform: rotate(-180deg);
-  transform: rotate(-180deg); 
+  display: inline-block;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .illoContainer {
   position: absolute;
-  color: brown;
   bottom: 0;
   left: 50%;
   margin-bottom: 1rem;
