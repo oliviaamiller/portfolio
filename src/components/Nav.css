@@ -10,7 +10,7 @@
 
 
 .nav a:hover {
-  color: hsl(330, 100%, 68%);
+  color: hsl(330, 100%, 72%);
   font-weight: 700;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .illoContainer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 50%;
   margin-bottom: 1rem;
@@ -32,7 +32,7 @@
 .design {
   writing-mode: vertical-lr;
   text-align: right;
-  position: absolute;
+  position: fixed;
   bottom: 40%;
   right: 0;
   margin-right: 1rem;
@@ -42,7 +42,7 @@
 .aboutContainer {
   display: flex;
   flex-direction: column-reverse;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 40%;
   margin-left: 1rem;
@@ -64,7 +64,7 @@
 }
 
 .dev {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -73,6 +73,7 @@
 }
 
 .active {
-  background-color: hsl(352, 86%, 58%);
-  color: #5f32a3 !important;
+  background-color: hsl(352, 68%, 50%);
+  color: hsl(252, 88%, 80%) !important;
+  font-weight: 700 !important;
 }

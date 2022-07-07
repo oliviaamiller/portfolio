@@ -1,0 +1,30 @@
+.devContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 8rem 5rem 0;
+}
+
+.devContainer div{
+    margin: 1rem;
+}
+
+.booty img {
+  width: 14rem;
+  height: 22rem;
+  object-fit: cover;
+  object-position: 15% ;
+}
+
+.cooks img {
+    width: 28rem;
+}
+
+.duet img {
+    width: 20rem;
+}
+
+.sun img {
+    width: 16rem;
+}
