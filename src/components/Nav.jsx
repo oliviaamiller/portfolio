@@ -4,23 +4,23 @@ import styles from './Nav.css';
 export default function Nav() {
   return (
     <div className={styles.nav}>
-      <div className={styles.illoContainer}>
+      <div className={styles.artContainer}>
         <NavLink
           activeClassName={styles.active}
-          className={styles.illustration}
+          className={styles.art}
           exact
-          to="/illustration"
+          to="/design"
         >
-          Illustration
+          Art and Design
         </NavLink>
       </div>
       <NavLink
         activeClassName={styles.active}
-        className={styles.design}
+        className={styles.dev}
         exact
-        to="/surface-design"
+        to="/dev"
       >
-        Surface Design
+        Development
       </NavLink>
       <div className={styles.aboutContainer}>
         <NavLink
@@ -38,14 +38,7 @@ export default function Nav() {
           Contact
         </a>
       </div>
-      <NavLink
-        activeClassName={styles.active}
-        className={styles.dev}
-        exact
-        to="/dev"
-      >
-        Development
-      </NavLink>
+      <p className={styles.name}>Olivia Miller</p>
     </div>
   );
 }

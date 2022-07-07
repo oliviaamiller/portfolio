@@ -1,4 +1,4 @@
-.nav a {
+.nav a, p {
   color: hsl(245, 27%, 20%);
   text-decoration: none;
   font-family: 'Source Serif 4', serif;
@@ -14,14 +14,14 @@
   font-weight: 700;
 }
 
-.illustration {
+.art {
   display: inline-block;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
   padding: 0.15rem .8rem;
 }
 
-.illoContainer {
+.artContainer {
   position: fixed;
   bottom: 0;
   left: 50%;
@@ -29,7 +29,7 @@
   transform: translate(-50%, -50%);
 }
 
-.design {
+.dev {
   writing-mode: vertical-lr;
   text-align: right;
   position: fixed;
@@ -63,7 +63,7 @@
   transform: rotate(-180deg);
 }
 
-.dev {
+.name {
   position: fixed;
   top: 0;
   left: 50%;
