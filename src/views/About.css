@@ -9,6 +9,10 @@
   font-weight: 300;
 }
 
+.container p {
+  text-transform: none;
+}
+
 .container a {
   color: hsl(245, 27%, 9%);
   font-weight: 400;
