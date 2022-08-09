@@ -5,6 +5,7 @@ import About from './views/About';
 import Dev from './views/Dev';
 import Home from './views/Home';
 import Nav from './components/Nav';
+import DevDetails from './views/DevDetails';
 import './App.css';
 
 export default function App() {
@@ -26,6 +27,9 @@ export default function App() {
         </Route>
         <Route exact path="/dev">
           <Dev />
+        </Route>
+        <Route path="/dev/:id">
+          <DevDetails />
         </Route>
       </Switch>
     </>
