@@ -6,11 +6,25 @@
   margin: 8rem 5rem 0;
 }
 
-.cardContainer{
+.detailContainer {
+  display: grid;
+  grid: 1fr / 1fr 1fr;
+  margin-top: 8rem;
+}
+
+.cardContainer {
   margin: 1.5rem;
 }
 
-.cardImg{
+.cardImg {
   height: 20rem;
   width: auto;
+}
+
+.detailImg {
+  border: 1px blue solid;
+}
+
+.detailInfo {
+  border: 1px salmon solid;
 }
