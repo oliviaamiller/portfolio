@@ -1,7 +1,11 @@
-import { devData } from './DevData'
+import { Link } from 'react-router-dom';
 
-export default function DevCard() {
+export default function DevCard({ project }) {
   return (
-    <div>DevCard</div>
-  )
+    <div>
+      <Link to={`/dev/${project.id}`}>
+        <img src={project.img} />
+      </Link>
+    </div>
+  );
 }

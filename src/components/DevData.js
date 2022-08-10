@@ -1,7 +1,7 @@
 export const devData = [
   {
     id: 'booty',
-    src: require('../assets/booty.png').default,
+    img: require('../../public/img/booty.png'),
     title: 'Booty or Death!',
     about: 'about the app here....',
     stack: 'tech stack here...',
@@ -10,8 +10,8 @@ export const devData = [
   },
   {
     id: 'cooks',
-    src: require('../assets/cooksbooks.png').default,
-    title: 'Booty or Death!',
+    img: require('../../public/img/cooks.png'),
+    title: 'CooksBooks',
     about: 'about the app here....',
     stack: 'tech stack here...',
     git: 'git link here...',
@@ -19,8 +19,8 @@ export const devData = [
   },
   {
     id: 'duet',
-    src: require('../assets/duet.png').default,
-    title: 'Booty or Death!',
+    img: require('../../public/img/duet.png'),
+    title: 'Just Duet',
     about: 'about the app here....',
     stack: 'tech stack here...',
     git: 'git link here...',
@@ -28,8 +28,8 @@ export const devData = [
   },
   {
     id: 'sun',
-    src: require('../assets/sun.png').default,
-    title: 'Booty or Death!',
+    img: require('../../public/img/sun.png'),
+    title: 'Sunshine',
     about: 'about the app here....',
     stack: 'tech stack here...',
     git: 'git link here...',
