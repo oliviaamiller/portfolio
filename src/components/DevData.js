@@ -27,6 +27,12 @@ export const devData = [
     stack: 'React, HTML, CSS, PostgreSQL, Express',
     git: 'https://github.com/cookin-n-bookin',
     deployed: 'https://cooksbooks.netlify.app/books',
+    imgArr: [
+      require('../assets/cooks.png'),
+      require('../assets/cooks2.png'),
+      require('../assets/cooks3.png'),
+      require('../assets/cooks4.png'),
+    ],
   },
   {
     id: 'duet',
@@ -36,6 +42,11 @@ export const devData = [
     stack: 'Vanilla JS, HTML, CSS, Supabase',
     git: 'https://github.com/Benatovich/just-duet',
     deployed: 'https://benatovich.github.io/just-duet/',
+    imgArr: [
+      require('../assets/duet.png'),
+      require('../assets/duet2.png'),
+      require('../assets/duet3.png'),
+    ],
   },
   {
     id: 'sun',
@@ -45,5 +56,12 @@ export const devData = [
     stack: 'React, HTML, CSS, Supabase',
     git: 'https://github.com/oliviaamiller/sunshine',
     deployed: 'https://sunshine2.netlify.app/',
+    imgArr: [
+      require('../assets/sun.png'),
+      require('../assets/sun2.png'),
+      require('../assets/sun3.png'),
+      require('../assets/sun4.png'),
+      require('../assets/sun5.png'),
+    ],
   },
 ];

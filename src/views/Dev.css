@@ -26,5 +26,8 @@
 }
 
 .detailInfo {
+  position: fixed;
+  left: 50%;
   border: 1px salmon solid;
+
 }
