@@ -12,7 +12,7 @@ export default function DevDetails() {
 
   return (
     <section className={styles.detailContainer}>
-      <div className={styles.detailImg}>
+      <div className={styles.detailImgs}>
     
           {project.imgArr.map((images, i) => (
             <DevDetailImages key={`${project.imgArr} + ${i}`} images={images} />
